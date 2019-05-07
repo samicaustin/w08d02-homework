@@ -30,11 +30,13 @@ class NewsIndex extends Component {
     showNews = () => {
         return this.state.news.map((newsItems) => 
             <div key = {newsItems.url}>
-                <img src={newsItems.urlToImage} style={{ height: '200px' }}></img>
+                <img src={newsItems.urlToImage} alt={newsItems.urlToImage}></img>
                 <h3><a href={newsItems.url}> {newsItems.title} </a>  </h3>
                 <b>from {newsItems.source.name}</b><br/>
                 <p>{newsItems.description}</p>
-                <br/><br/>
+                <br/>
+                <hr></hr>
+                <br/>
 
             </div>
         )

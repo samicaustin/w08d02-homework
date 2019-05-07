@@ -31,3 +31,58 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 20px;
+  font-weight: 800
+}
+
+b {
+  letter-spacing: 2px;
+}
+
+h3 {
+  margin: 0 70px 5px 70px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 20px;
+  font-weight: 800
+}
+
+.login {
+  letter-spacing: 2px;
+  padding: 10px
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gold;
+  letter-spacing: 2px
+}
+
+a:hover {
+  color: goldenrod
+}
+
+p {
+  margin: 0 50px 25px 50px;
+  letter-spacing: 1px
+}
+
+hr {
+  width: 80%
+}
+
+img {
+  margin: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: auto
+}
